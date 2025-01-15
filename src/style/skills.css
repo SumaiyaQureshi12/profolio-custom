@@ -1,0 +1,45 @@
+/* Container */
+.skills-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  }
+  
+  /* Header */
+  .skills-header {
+    font-size: 45px; 
+    color: #0ea5e9; 
+    font-weight: bold;
+  }
+  
+  .skills-description {
+    color: #6b7280; 
+    padding-top: 2px; 
+  }
+  
+  /* Grid Layout for Skills */
+  .skills-grid {
+    display: grid;
+    gap: 20px; 
+    grid-template-columns: 1fr;
+  }
+  
+  .skills-grid .skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #f59e0b; 
+    font-size: 30px; 
+  }
+  
+  .skills-grid .skills-list h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .skills-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  

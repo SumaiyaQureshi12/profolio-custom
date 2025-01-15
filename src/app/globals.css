@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@lyer base{
+  body {
+      color: #fff;
+      background: #000;
+  }
+}
+@lyer components{
+.menuLink{
+  @apply cursor-pointer hover:text-[#c5c5];
+}
+
+}

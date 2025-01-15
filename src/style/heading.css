@@ -1,0 +1,14 @@
+/* Heading Container */
+.heading-container {
+    text-align: center;
+    font-size: 45px; 
+    padding-bottom: 8px; 
+  }
+  
+  /* Border Under Title */
+  .heading-title {
+   
+    display: inline-block;
+    padding-bottom: 2px; 
+  }
+  

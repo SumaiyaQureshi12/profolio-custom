@@ -1,0 +1,42 @@
+/* Hero Section */
+.hero-container {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+   justify-items: center;
+  }
+  
+  /* Container for center alignment */
+  .hero-content-container {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 60px); /* Adjusted for Navbar height */
+    justify-items: center;
+    align-items: center;
+  }
+  
+  /* Center Text Styling */
+  .hero-text {
+    font-size: 100px; 
+    font-weight: bold;
+    line-height: 1.1; 
+    text-align: center;
+    }
+  
+  .hero-text span {
+    display: block;
+    font-size: 130px; 
+  }
+  
+  /* Hidden on mobile and visible on large screens */
+  .hidden-lg {
+    display: none;
+  }
+  
+  @media (min-width: 1024px) {
+    .hidden-lg {
+      display: block;
+    }
+  }
+  
